@@ -12,4 +12,9 @@ Rails.application.routes.draw do
   namespace :account do
     resources :groups
   end
+
+  namespace :account do
+    resources :posts
+  end
+  
 end
